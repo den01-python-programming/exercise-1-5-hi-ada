@@ -1,29 +1,19 @@
-# Exercise 1.4 - Message
-
-Write a program that asks the user to write a string. When the user has provided a string (i.e., written some text and pressed the enter key), the program should print the string that was provided by the user.
+# Exercise 1.5 - Hi Ada Lovelace!
 
 The exercise template comes with a program template that includes the function and its call.
 
 ```python
-def message_print():
-    message = input("Write a message:")
+def hi_ada():
+    name = "Ada Lovelace"
     # Write your code here
     
-message_print()
+hi_ada()
 ```
 
-Example output for when the user writes "Bye".
+Modify the program so that it prints the contents of the variable `name`, and the printed text is the following in its full form:
 
 ```plaintext
-Write a message:
-*Bye*
-Bye
+Hi Ada Lovelace!
 ```
 
-Example output for when the user writes "Once upon a time...".
-
-```plaintext
-Write a message:
-*Once upon a time...*
-Once upon a time...
-```
+**NB!** When using the `print` command, do not pass in the string "Ada Lovelace" as a parameter. Instead, use the existing variable `name`: `print("Hi " + ...)`
