@@ -3,11 +3,12 @@
 The exercise template comes with a program template that includes the function and its call.
 
 ```python
-def hi_ada():
+def main():
     name = "Ada Lovelace"
     # Write your code here
-    
-hi_ada()
+
+if __name__ == '__main__':
+    main()
 ```
 
 Modify the program so that it prints the contents of the variable `name`, and the printed text is the following in its full form:

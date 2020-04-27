@@ -1,4 +1,6 @@
 def main():
-  #write your code below this line
+    name = "Ada Lovelace"
+    # Write your code here
 
-main()
+if __name__ == '__main__':
+    main()
